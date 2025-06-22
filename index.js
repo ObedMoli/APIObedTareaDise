@@ -1,5 +1,6 @@
 import express from 'express'
 import ProductosRouter from './Routes/productos.routes.js'
+
 //Codigo para verificacion del puerto servidor y usar express
 const app=express()
 const PORT=process.env.PORT || 4000
@@ -9,5 +10,5 @@ app.listen(PORT, () => {
 })  
 
 //Codigo para usar las rutas 
-
-app.use('/Productos',ProductosRouter)
+app.use(express.json())
+app.use('/productos',ProductosRouter)
