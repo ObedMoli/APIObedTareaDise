@@ -31,7 +31,8 @@ Content-Type: application/json
 
 {
   "nombre": "Producto Actualizado",
-  "precio": 200
+  "precio": 200,
+  "descripcion":"Este telvisor esta en oferta"
 }
 ###Eliminar producto por ID
 
