@@ -1,6 +1,7 @@
 # APIObedTareaDise
 Repositorio de la tarea API 
 Archivo para crear un proyecto para una api en Node JS:
+	
 	En la terminal de visual studio escribir: npm init --yes
 	
 	En la misma terminal instalar node js Express con: npm install express 
