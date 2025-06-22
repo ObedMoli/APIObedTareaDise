@@ -2,10 +2,14 @@
 Repositorio de la tarea API 
 Archivo para crear un proyecto para una api en Node JS:
 	En la terminal de visual studio escribir: npm init --yes
+	
 	En la misma terminal instalar node js Express con: npm install express 
+	
 	En el archivo Index hay que agregar una variable PORT constante para asignar en que puerto va correr el servidor de forma que mi puerto 3000 estaba ocupado utilice el 4000
-	En el archivo package.json se debe agregar en la parte de scrips lo siguiente ("dev":"node --watch index.js",) para al momento querer iniciar el servidor solo sea neceario escribir en la terminal (npm run dev) que ira a buscar lo que esta alojado en dev y iniciara el servidor
-	en el navegador
+	
+	En el archivo package.json se debe agregar en la parte de scrips lo siguiente ("dev":"node --watch 
+	index.js",) para al momento querer iniciar el servidor solo sea neceario escribir en la terminal (npm run dev) que ira a buscar lo que esta alojado en dev y iniciara el servido en el navegador
+	
 	Ruta: /productos
 		Descripción: Obtiene un listado completo de todos los productos registrados en el json.
 
